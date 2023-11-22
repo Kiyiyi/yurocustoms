@@ -1,0 +1,62 @@
+/* Version: 1.0.0 */
+
+.booking_form_div textarea, .booking_form_div input[type="text"], .booking_form_div select {
+    border-color: black;
+    border-width: 0px 0px 3px 0px;
+    border-radius: 0px;
+}
+
+.resource_selection_div select, .wpbc_container.wpbc_container_booking_form select, .wpbc_container.wpbc_container_booking_form input[type="text"], .wpbc_container.wpbc_container_booking_form textarea {
+    font-size: 1.346rem;
+}
+
+.wpbc_container .wpbc_button_light, .wpbc_container.wpbc_container_booking_form .wpbc_button_light {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.811rem;
+    border-radius: 30px;
+    align-self: center;
+    text-align: center;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 5%;
+}
+
+.wpbc_container .wpbc_button_light, .wpbc_container.wpbc_container_booking_form .wpbc_button_light:hover {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.811rem;
+    border-radius: 30px;
+    align-self: center;
+    text-align: center;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .captcha-form-group {
+        display: block;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2048px){
+    .captcha-form-group {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+}
+
+.block_hints.datepick {
+    margin-left: 2%;
+    display: inline flex;
+    flex-flow: row !important;
+}
+
+.widget_wpdev_booking .wpdev_hint_with_text {
+    width: 33% !important;
+}
